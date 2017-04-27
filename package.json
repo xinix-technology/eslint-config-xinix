@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-xinix",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Javascript Xinix Style",
   "main": "index.js",
   "scripts": {
@@ -9,8 +9,16 @@
   "author": "Ganesha <reekoheek@gmail.com>",
   "license": "MIT",
   "devDependencies": {
+    "eslint": ">=3.19.0",
     "eslint-config-standard": "^10.2.1",
     "eslint-plugin-promise": "^3.5.0",
     "eslint-plugin-standard": "^3.0.1"
+  },
+  "peerDependencies": {
+    "eslint": ">=3.19.0",
+    "eslint-plugin-import": ">=2.2.0",
+    "eslint-plugin-node": ">=4.2.2",
+    "eslint-plugin-promise": ">=3.5.0",
+    "eslint-plugin-standard": ">=3.0.0"
   }
 }
