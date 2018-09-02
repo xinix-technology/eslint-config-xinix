@@ -1,8 +1,7 @@
 {
-  "extends": "standard",
-  "plugins": [
-    "standard",
-    "promise"
+  "extends": [
+    "eslint:recommended",
+    "standard"
   ],
   "rules": {
     "semi": ["error", "always"],
