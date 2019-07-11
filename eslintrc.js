@@ -15,6 +15,7 @@ module.exports = {
     node: true,
     mocha: true,
   },
+  parser: 'babel-eslint',
   parserOptions: {
     parser: 'babel-eslint',
   },
