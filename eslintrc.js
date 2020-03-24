@@ -17,6 +17,7 @@ module.exports = {
     'max-nested-callbacks': ['error', 2],
     'max-depth': ['error', 3],
     'max-params': ['error', 3],
+    'mocha/no-mocha-arrows': 'off',
   },
   env: {
     browser: true,
