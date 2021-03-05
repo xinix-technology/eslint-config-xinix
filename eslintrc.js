@@ -18,6 +18,7 @@ module.exports = {
     'max-depth': ['error', 3],
     'max-params': ['error', 3],
     'mocha/no-mocha-arrows': 'off',
+    'mocha/no-hooks-for-single-case': 'off',
   },
   env: {
     browser: true,

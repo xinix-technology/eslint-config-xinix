@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-xinix",
-  "version": "1.1.14",
+  "version": "1.1.15",
   "description": "Javascript Xinix Style",
   "main": "index.js",
   "scripts": {
@@ -13,14 +13,14 @@
     "url": "https://github.com/xinix-technology/eslint-config-xinix.git"
   },
   "devDependencies": {
-    "eslint": "^6.8.0"
+    "eslint": "^7.21.0"
   },
   "dependencies": {
-    "eslint-config-standard": "^14.1.1",
+    "eslint-config-standard": "^16.0.2",
     "eslint-plugin-import": "^2.20.2",
-    "eslint-plugin-mocha": "^6.3.0",
+    "eslint-plugin-mocha": "^8.0.0",
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^4.2.1",
-    "eslint-plugin-standard": "^4.0.1"
+    "eslint-plugin-standard": "^5.0.0"
   }
 }
