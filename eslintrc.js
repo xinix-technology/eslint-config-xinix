@@ -1,8 +1,8 @@
 module.exports = {
+  parser: '@typescript-eslint/parser',
   extends: [
     'eslint:recommended',
     'standard',
-    'plugin:mocha/recommended',
   ],
   rules: {
     semi: ['error', 'always'],
@@ -23,6 +23,31 @@ module.exports = {
   env: {
     browser: true,
     node: true,
-    mocha: true,
   },
+  overrides: [
+    {
+      files: [
+        '*.ts',
+        '*.tsx',
+      ],
+      extends: [
+        'plugin:@typescript-eslint/eslint-recommended',
+        'plugin:@typescript-eslint/recommended',
+      ],
+    },
+    {
+      files: [
+        '*.test.js',
+        '*.test.ts',
+        '*.test.jsx',
+        '*.test.tsx',
+      ],
+      extends: [
+        'plugin:mocha/recommended',
+      ],
+      env: {
+        mocha: true,
+      },
+    },
+  ],
 };
