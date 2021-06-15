@@ -17,8 +17,6 @@ module.exports = {
     'max-nested-callbacks': ['error', 2],
     'max-depth': ['error', 3],
     'max-params': ['error', 3],
-    'mocha/no-mocha-arrows': 'off',
-    'mocha/no-hooks-for-single-case': 'off',
   },
   env: {
     browser: true,
@@ -45,6 +43,11 @@ module.exports = {
       extends: [
         'plugin:mocha/recommended',
       ],
+      rules: {
+        'mocha/no-mocha-arrows': 'off',
+        'mocha/no-hooks-for-single-case': 'off',
+        'max-nested-callbacks': 'off',
+      },
       env: {
         mocha: true,
       },
