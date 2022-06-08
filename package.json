@@ -1,10 +1,10 @@
 {
   "name": "eslint-config-xinix",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "description": "Javascript and Typescript Xinix Style",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Test nothing!\""
+    "test": "eslint ."
   },
   "author": "Ganesha <reekoheek@gmail.com>",
   "license": "MIT",
@@ -12,16 +12,16 @@
     "type": "git",
     "url": "https://github.com/xinix-technology/eslint-config-xinix.git"
   },
-  "devDependencies": {
-    "eslint": "^7.21.0"
-  },
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^4.26.1",
-    "@typescript-eslint/parser": "^4.26.1",
-    "eslint-config-standard": "^16.0.2",
+    "@typescript-eslint/eslint-plugin": "^5.3.1",
+    "@typescript-eslint/parser": "^5.3.1",
+    "eslint-config-standard": "^17.0.0",
     "eslint-plugin-import": "^2.20.2",
-    "eslint-plugin-mocha": "^9.0.0",
+    "eslint-plugin-mocha": "^10.0.5",
     "eslint-plugin-node": "^11.1.0",
-    "eslint-plugin-promise": "^5.1.0"
+    "eslint-plugin-promise": "^6.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.17.0"
   }
 }
