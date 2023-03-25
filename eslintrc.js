@@ -6,6 +6,7 @@ module.exports = {
   ],
   rules: {
     semi: ['error', 'always'],
+    'space-before-function-paren': ['error', 'never'],
     'comma-dangle': ['error', 'always-multiline'],
     'no-var': ['error'],
     'no-console': ['error', { allow: ['info', 'warn', 'error'] }],
@@ -36,6 +37,7 @@ module.exports = {
     {
       files: [
         '*.test.js',
+        '*.test.mjs',
         '*.test.ts',
         '*.test.jsx',
         '*.test.tsx',
