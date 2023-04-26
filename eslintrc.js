@@ -18,6 +18,7 @@ module.exports = {
     'max-nested-callbacks': ['error', 2],
     'max-depth': ['error', 3],
     'max-params': ['error', 3],
+    indent: ['error', 2, { ignoredNodes: ['PropertyDefinition'] }],
   },
   env: {
     browser: true,
@@ -33,6 +34,10 @@ module.exports = {
         'plugin:@typescript-eslint/eslint-recommended',
         'plugin:@typescript-eslint/recommended',
       ],
+      rules: {
+        'no-useless-constructor': 'off',
+        '@typescript-eslint/no-useless-constructor': 'error',
+      },
     },
     {
       files: [
@@ -49,6 +54,7 @@ module.exports = {
         'mocha/no-mocha-arrows': 'off',
         'mocha/no-hooks-for-single-case': 'off',
         'max-nested-callbacks': 'off',
+        'dot-notation': 'off',
       },
       env: {
         mocha: true,
