@@ -13,8 +13,8 @@
     "url": "https://github.com/xinix-technology/eslint-config-xinix.git"
   },
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^5.3.1",
-    "@typescript-eslint/parser": "^5.3.1",
+    "@typescript-eslint/eslint-plugin": "^6.12.0",
+    "@typescript-eslint/parser": "^6.12.0",
     "eslint-config-standard": "^17.0.0",
     "eslint-plugin-import": "^2.20.2",
     "eslint-plugin-mocha": "^10.0.5",

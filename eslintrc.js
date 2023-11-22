@@ -18,7 +18,10 @@ module.exports = {
     'max-nested-callbacks': ['error', 2],
     'max-depth': ['error', 3],
     'max-params': ['error', 3],
-    indent: ['error', 2, { ignoredNodes: ['PropertyDefinition'] }],
+    indent: ['error', 2, {
+      ignoredNodes: ['PropertyDefinition'],
+      SwitchCase: 1,
+    }],
   },
   env: {
     browser: true,
